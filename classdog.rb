@@ -15,7 +15,7 @@ class dog
   end 
   
   #setter for instance attribute name 
-  def name=(name)
+  def name=(name) 
     @name = name 
   end 
   
