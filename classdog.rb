@@ -26,7 +26,7 @@ class dog
 end 
 
 #create new instance of Dog 
-dog1 = Dog.new ("MacDuff", "Cocker Spaniel")
+dog1 = Dog.new ("MacDuff","Cocker Spaniel")
 
 # puts out dog1's instance attribute name, this calls the getter for name 
 puts dog1.name 
