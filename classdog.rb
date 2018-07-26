@@ -39,3 +39,5 @@ dog1.name = "Booboo"
 
 # once again puts out dog1's instance attribute name to show that the attribute changed 
 puts dog1.name 
+
+end 
