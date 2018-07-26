@@ -28,6 +28,13 @@ end
 #create new instance of Dog 
 dog1 = Dog.new ("MacDuff","Cocker Spaniel")
 
+class Dog 
+  @@num_dogs_created = 0 
+  
+  #initialize gets called ONCE when the instqnce of the object is first created 
+  def initialize(name , breed)
+    @name 
+
 # puts out dog1's instance attribute name, this calls the getter for name 
 puts dog1.name 
 
